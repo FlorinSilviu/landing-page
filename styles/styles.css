@@ -138,12 +138,39 @@ li {
     color: #1F2937;
 }
 
-.quote > em {
-    max-width: 60%;
+.q-content {
+    max-width: 55%;
 }
 
-.quote > p {
+.q-content > p {
     font-size: 24px;
     font-weight: normal;
-    margin-left: 35%;
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 30px;
+    color: #E5E7EB;
+    border-radius: 10px;
+}
+
+.call-to-action > p {
+    margin: 10px 100px;
+}
+
+.call-to-action > #cta-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-to-action > button {
+    background-color: transparent;
+    border-color: #E5E7EB;
+    border-radius: 4px;
+    color: #E5E7EB;
 }
